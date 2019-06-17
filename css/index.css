@@ -1,11 +1,7 @@
-/*!
- * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
- */
-body {
 
+body {
   padding-top: 56px;
+  background-color: rgb(159, 202, 240)
 }
 
 .name { 
@@ -19,16 +15,11 @@ body {
 
   font: Georgia, serif;
 }
-
-/* .header{
-  font: 
-} */
-
-/* footer {
-
-  height: 4em; 
-  position: absolute; 
-  bottom: 0; 
-  width: 100%; 
-  text-align: center;
-} */
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://images.unsplash.com/photo-1535082049017-5a7b43f3bcef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
