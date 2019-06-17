@@ -1,0 +1,34 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+body {
+
+  padding-top: 56px;
+}
+
+.name { 
+
+  font: white; 
+  padding: 15px;
+
+}
+
+.bio {
+
+  font: Georgia, serif;
+}
+
+/* .header{
+  font: 
+} */
+
+/* footer {
+
+  height: 4em; 
+  position: absolute; 
+  bottom: 0; 
+  width: 100%; 
+  text-align: center;
+} */
