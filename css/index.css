@@ -1,7 +1,21 @@
 
 body {
   padding-top: 56px;
-  background-color: rgb(159, 202, 240)
+  background-color: rgb(159, 202, 240);
+  font-family: fantasy;
+  
+}
+
+h2 {
+  font-family: cursive;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+h3 {
+  font-family: cursive
 }
 
 .name { 
