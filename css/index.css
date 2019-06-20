@@ -1,9 +1,7 @@
-
 body {
   padding-top: 56px;
-  background-color: rgb(159, 202, 240);
+  background-color: rgb(6, 18, 28);
   font-family: fantasy;
-  
 }
 
 h2 {
@@ -18,20 +16,37 @@ h3 {
   font-family: cursive
 }
 
-.name { 
-
-  font: white; 
-  padding: 15px;
-
+.icons {
+  font-size: 2rem
 }
 
-.bio {
+.submit{
+  padding: 20px; 
+}
 
-  font: Georgia, serif;
+.link {
+ font-size: 45px; 
+}
+
+.links{
+  font-size: 75px; 
+}
+
+.name { 
+  font: white; 
+  padding: 15px;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0; 
 }
 .masthead {
   height: 100vh;
-  min-height: 500px;
+  min-height: 400px;
+  background-color: black; 
   background-image: url('https://images.unsplash.com/photo-1535082049017-5a7b43f3bcef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80');
   background-size: cover;
   background-position: center;
