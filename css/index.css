@@ -1,23 +1,25 @@
 body {
   padding-top: 56px;
-  background-color: rgb(6, 18, 28);
+  background-color: rgb(30, 4, 71);
   font-family: fantasy;
 }
 
-h2 {
+h1 h2 h3{
   font-family: cursive;
 }
 
-h1 {
-  font-family: cursive;
+p:hover, h3:hover {
+  color: rgb(48, 48, 223); 
 }
 
-h3 {
-  font-family: cursive
+.profilePic {
+  grid-column-start: 2; 
+
 }
 
 .icons {
-  font-size: 2rem
+  font-size: 2rem;
+ 
 }
 
 .submit{
@@ -26,6 +28,11 @@ h3 {
 
 .link {
  font-size: 45px; 
+}
+
+.app {
+  /* border: 2px dashed blue; */
+  padding: 30px; 
 }
 
 .links{
@@ -37,17 +44,22 @@ h3 {
   padding: 15px;
 }
 
-
+.bio {
+  text-align: center; 
+  width: 500px; 
+}
 
 body {
   margin: 0;
   padding: 0; 
 }
+
 .masthead {
   height: 100vh;
   min-height: 400px;
   background-color: black; 
   background-image: url('https://images.unsplash.com/photo-1535082049017-5a7b43f3bcef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80');
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
