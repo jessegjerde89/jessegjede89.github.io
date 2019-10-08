@@ -1,7 +1,7 @@
 body {
   border-width: 15px solid black; 
   padding-top: 56px;
-  background-color: rgb(47, 47, 179);
+  background-color: rgb(30, 30, 114);
   font-family: fantasy;
 }
 
@@ -29,28 +29,36 @@ p:hover, h3:hover {
   margin: 10px, 10px; 
   border: 80px solid white;
   border-radius: 75%; 
+  font-style: italic; 
 }
 
 
 p:hover {
   font-size: 120%; 
-  width: 120%;
+  width: 160%;
   border: 50px solid white;
   padding: 25px 25px; 
   border-radius: 50%;
+  font-style: italic; 
 }
 
 .profilePic {
   grid-column-start: 2; 
+ 
 }
 
 #photo {
   border: 15px solid rgb(35, 19, 126);
-  border-start-end-radius: 15px
+  border-start-end-radius: 15px;
+  box-shadow: 40px 25px 80px; 
 }
 
 .icons {
   font-size: 2rem;
+}
+
+.space {
+  padding: 30px 30px; 
 }
 
 .submit{
@@ -74,7 +82,18 @@ p:hover {
   height: 100px; 
   width: 100px; 
   background-color: orange;
+  position: relative;
+  animation: mymove 1s infinite;
+  animation-delay: 2s;
 }
+.boxes2:hover{
+}
+
+/* @keyframes mymove {
+  from {left: 0px;}
+  to {left: 90%;}
+  
+} */
 
 .bio {
   text-align: center; 
@@ -100,7 +119,7 @@ body {
 
   .projects{
     border: 4px solid blue; 
-    background-color: rgb(184, 124, 153); 
+    background-color: rgb(104, 35, 131); 
     padding: 20px 0px ; 
     border-radius: 10%; 
   }
