@@ -1,6 +1,7 @@
 body {
+  border-width: 15px solid black; 
   padding-top: 56px;
-  background-color: rgb(30, 4, 71);
+  background-color: rgb(47, 47, 179);
   font-family: fantasy;
 }
 
@@ -9,17 +10,47 @@ h1 h2 h3{
 }
 
 p:hover, h3:hover {
-  color: rgb(48, 48, 223); 
+  
+  color: rgb(100, 100, 196); 
+  background-color: white; 
+  padding: 25px, 15px; 
+  margin: 10px, 10px; 
+  border: 25px solid white;
+ 
+}
+
+
+#bio:hover {
+  color: rgb(100, 100, 196); 
+  background-color: white; 
+  padding: 30px, 25px; 
+  width: 140%; 
+  height: 102%; 
+  margin: 10px, 10px; 
+  border: 80px solid white;
+  border-radius: 75%; 
+}
+
+
+p:hover {
+  font-size: 120%; 
+  width: 120%;
+  border: 50px solid white;
+  padding: 25px 25px; 
+  border-radius: 50%;
 }
 
 .profilePic {
   grid-column-start: 2; 
+}
 
+#photo {
+  border: 15px solid rgb(35, 19, 126);
+  border-start-end-radius: 15px
 }
 
 .icons {
   font-size: 2rem;
- 
 }
 
 .submit{
@@ -32,16 +63,17 @@ p:hover, h3:hover {
 
 .app {
   /* border: 2px dashed blue; */
-  padding: 30px; 
+  padding: 90px; 
 }
 
 .links{
   font-size: 75px; 
 }
 
-.name { 
-  font: white; 
-  padding: 15px;
+.boxes2 {
+  height: 100px; 
+  width: 100px; 
+  background-color: orange;
 }
 
 .bio {
@@ -52,15 +84,23 @@ p:hover, h3:hover {
 body {
   margin: 0;
   padding: 0; 
+  border: 30px solid black 
 }
 
 .masthead {
   height: 100vh;
   min-height: 400px;
-  background-color: black; 
+  /* background-color: black;  */
   background-image: url('https://images.unsplash.com/photo-1535082049017-5a7b43f3bcef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+  .projects{
+    border: 4px solid blue; 
+    background-color: rgb(184, 124, 153); 
+    padding: 20px 0px ; 
+    border-radius: 10%; 
+  }
