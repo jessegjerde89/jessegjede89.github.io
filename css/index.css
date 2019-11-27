@@ -12,20 +12,22 @@ h1 h2 h3{
 p:hover, h3:hover {
   
   color: rgb(100, 100, 196); 
-  background-color: white; 
   padding: 25px, 15px; 
   margin: 10px, 10px; 
-  border: 25px solid white;
+  /* border: 25px solid white; */
  
 }
 
+ p:hover, #bio:hover {
+  background-color: white; 
+}
 
 #bio:hover {
   color: rgb(100, 100, 196); 
   background-color: white; 
   padding: 30px, 25px; 
-  width: 140%; 
-  height: 102%; 
+  width: 120%; 
+  height: 90%; 
   margin: 10px, 10px; 
   border: 80px solid white;
   border-radius: 75%; 
@@ -35,7 +37,7 @@ p:hover, h3:hover {
 
 p:hover {
   font-size: 120%; 
-  width: 160%;
+  width: 120%;
   border: 50px solid white;
   padding: 25px 25px; 
   border-radius: 50%;
