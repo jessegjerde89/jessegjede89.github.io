@@ -1,0 +1,138 @@
+{
+  "main": {
+    "name":"Jesse Gjerde",
+    "occupation":"Software Dev",
+    "description":"I am a full stack software developer residing in Denver, Colorado. I have a background in hospitality along with a technical mind, solving problems with creativity and ingenuity.",
+    "image":"profilepic.png",
+    "bio":"Recent resident of the Colorado area and lover of all thing outdoors. A bit of a computer gamer as well, I love to solve technology based problems, and furthering my knowledge of what is and isn't possible",
+    "contactmessage":"Fill this out, if you'd like to reach me !",
+    "email": "jessegjerde89@gmail.com",
+    "phone": "555-555-5555",
+    "address":{
+      "street":"",
+      "city":"Lakewood",
+      "state":"Colorado",
+      "zip": "80228"
+    },
+    "website": "",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/jesse-gjerde//",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/jessegjerde89",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"***  Some skills BUT not the extend of what I am capable  ***",
+    "education":[
+      {
+        "school":"MSCTC - of Detroit Lakes",
+        "degree":"Associates in Computer Network Security",
+        "graduated":"May 2010",
+        "description":"Learing how technology talks to one another, while practicing security measures of all forms. Placed 2nd in the Minnesoat Collegiate Cyber Defense Competition"
+      },
+      {
+        "school":"Prime Digital Academy",
+        "degree":"Full Stack Software Developer Certificate",
+        "graduated":"July 2019",
+        "description":"Taught multiple different coding languages involving the entire stack while utilizing the PDLC process.  "
+      }
+    ],
+    "work":[
+      {
+        "company":"Awesome Design Studio",
+        "title":"Senior UX God ",
+        "years":"March 2010 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Super Cool Studio",
+        "title":"Junior bug fixer",
+        "years":"March 2007 - February 2010",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+          "name":"JavaScript",
+          "level":"75%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"70%"
+      },
+      {
+        "name":"CSS",
+        "level":"80%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"VueJs",
+        "level":"50%"
+      },
+      {
+        "name":"Databases",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Foodholic",
+        "category":"App to help hungry customers find food tucks",
+        "image":"foodaholic.png",
+        "url":"https://young-fjord-77369.herokuapp.com/#/home"
+      },
+      {
+        "title":"Brain Change",
+        "category":"Find your personal key values and beliefs",
+        "image":"brain-change.png",
+        "url":"https://team-brain-change.herokuapp.com/#/home"
+      },
+      {
+        "title":"Super Mood Ring",
+        "category":"An image carousel",
+        "image":"mood-ring.png",
+        "url":"https://github.com/jessegjerde89/saga-mood-ring"
+      },
+      {
+        "title":"Salary Calculator",
+        "category":"Breaks down employees wages",
+        "image":"salary-calculator.png",
+        "url":"https://github.com/jessegjerde89/jquery-salary-calculator"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
