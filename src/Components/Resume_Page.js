@@ -1,15 +1,17 @@
-import React from 'react'; 
-import ( Page, Text, View, Document, StyleSheet ) from '@react-pdf/renderer'; 
+import React, { Component } from "react";
+import Pdf from "./My_Resume_JG.pdf";
+import { Page } from "react-pdf";
 
-const styles = StyleSheet.create({
-    page: {
-        flexDirection: 'row',
-        backgroundColor: '#E4E4E4'
-    },
+class Resume_Page extends Component {
+  render() {
+    return (
+      <div className="pdf">
+        <a href={Pdf} target="_blank">
+          Download My Resume 
+        </a>
+      </div>
+    );
+  }
+}
 
-    section: { 
-        margin: 10, 
-        padding:10, 
-        flexGrow: 1
-    }
-})
+export default Resume_Page;

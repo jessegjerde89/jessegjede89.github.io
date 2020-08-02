@@ -1,61 +1,56 @@
-import React, { Component, Fragment } from 'react';
-import { connect } from 'react-redux'; 
-import { DiApple, DiGithubBadge, DiJsBadge, 
-  DiBootstrap, DiDatabase, DiLinux, DiNpm,
-  DiPython, DiCss3, DiNodejsSmall, DiReact, DiSass, DiPhp, 
-DiHtml5, DiHeroku,   } from 'react-icons/di'; 
+import React, { Component, Fragment } from "react";
+import { connect } from "react-redux";
+import {
+  DiApple,
+  DiGithubBadge,
+  DiJsBadge,
+  DiBootstrap,
+  DiDatabase,
+  DiLinux,
+  DiNpm,
+  DiPython,
+  DiCss3,
+  DiNodejsSmall,
+  DiReact,
+  DiSass,
+  DiPhp,
+  DiHtml5,
+  DiHeroku,
+} from "react-icons/di";
 
+import { PDFDownloadLink, Document, Page } from "react-pdf/";
 
-import { PDFDownloadLink, Document, Page } from 'react-pdf/';
-
-
-
+import Resume_page from "./Resume_Page";
 
 class Resume extends Component {
-
-  state = {
-    numPages: null,
-    pageNumber: 1,
-  }
+  state = {};
 
   onDocumentLoad({ numPages }) {
     this.setState({ numPages });
-    
   }
 
-
   render() {
-
-    if(this.props.data){
-      var education = this.props.data.education.map(function(education){
-        return <div key={education.school}><h3>{education.school}</h3>
-        <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p className="info-des">{education.description}</p></div>
-      })
-      var skills = this.props.data.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li id="multipl" key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
-      })
-    }
-    let pageNumber = 0
+    // if(this.props.data){
+    //   var education = this.props.data.education.map(function(education){
+    //     return <div key={education.school}><h3>{education.school}</h3>
+    //     <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
+    //     <p className="info-des">{education.description}</p></div>
+    //   })
+    //   var skills = this.props.data.skills.map(function(skills){
+    //     var className = 'bar-expand '+skills.name.toLowerCase();
+    //     return <li id="multipl" key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+    //   })
+    // }
     return (
-      <Fragment>
-      <section id="resume">
+      <div>
+        <section id="resume">
+          <div className="pdf_page">
+            <p className="pdf" >
+            <Resume_page />
+            </p>
+            <div />
 
-
-      <h2>Education</h2>
-
-      <Document 
-        file="My_Resume_JG.pdf"
-        onLoadSuccess={this.onDocumentLoad}
-      >
-        <Page 
-           pageNumber={pageNumber}
-          />
-      </Document>
-
-      <p> Page {this.state.paegNumber} of {this.state.numPages} </p>
-      {/* <div className="row education">
+            {/* <div className="row education">
 
          <div className="nine columns main-col">
             <div className="row item">
@@ -67,34 +62,42 @@ class Resume extends Component {
             </div>
          </div>
       </div> */}
-      
 
-      <div className="icons" >  
-              <h2> Tech Stack </h2>
-            <div>
-              < DiJsBadge title="JavaScript" size="40px" color="black"/> 
-              < DiBootstrap title="Bootstrap" size="40px" color="black"/> 
-              < DiDatabase title="Databases" size="40px" color="black"/> 
-              < DiLinux title="Linux" size="40px" color="black"/> 
-              < DiNpm title="npm" size="40px" color="black"/> 
-              < DiPython title="Python" size="40px" color="black"/> 
-              < DiCss3 title="CSS" size="40px" color="black"/> 
-              < DiNodejsSmall title="Node" size="40px" color="black"/> 
-              < DiApple title="Apple" size="40px" color="black"/> 
-              < DiGithubBadge title="Github" size="40px" color="black"/>
-              < DiReact title="React" size="40px" color="black"/>
-              < DiSass title="Sass" size="40px" color="black"/>
-              < DiPhp title="Php" size="40px" color="black"/>
-              < DiHtml5 title="Html" size="40px" color="black"/>
-              < DiHeroku title="Heroku" size="40px" color="black"/>
+            <div className="icons">
+              <div>
+                <DiJsBadge title="JavaScript" size="40px" color="white" />
+                <DiBootstrap title="Bootstrap" size="40px" color="white" />
+                <DiDatabase title="Databases" size="40px" color="white"/>
+                <DiLinux title="Linux" size="40px" color="white"/>
+                <DiNpm title="npm" size="40px" color="white" />
+                <DiPython title="Python" size="40px" color="white" />
+                <DiCss3 title="CSS" size="40px" color="white"/>
+                <DiNodejsSmall title="Node" size="40px" color="white" />
+                <div></div>
+                <DiApple title="Apple" size="40px" color="white"/>
+                <DiGithubBadge title="Github" size="40px" color="white"/>
+                <DiReact title="React" size="40px" color="white"/>
+                <DiSass title="Sass" size="40px" color="white" />
+                <DiPhp title="Php" size="40px" color="white"/>
+                <DiHtml5 title="Html" size="40px" color="white"/>
+                <DiHeroku title="Heroku" size="40px" color="white" />
+              </div>
+            </div> 
+              <p>&copy; Jesse Gjerde</p>  
+        
+           <div id="go-top">
+             <a className="smoothscroll" title="Back to Top" href="#home">
+               <i className="icon-up-open"></i>
+            </a>
             </div>
-      </div>
-      </section>
-      </Fragment>
+    
+        </div>
+        </section>
+        </div>
+              // <p>&copy; Jesse Gjerde</p>  
+        
     );
   }
 }
 
-
-
-export default (Resume);
+export default Resume;
