@@ -45,8 +45,8 @@ class Resume extends Component {
       <div>
         <section id="resume">
           <div className="pdf_page">
-            <p className="pdf" >
-            <Resume_page />
+            <p className="pdf">
+              <Resume_page />
             </p>
             <div />
 
@@ -67,35 +67,32 @@ class Resume extends Component {
               <div>
                 <DiJsBadge title="JavaScript" size="60px" color="white" />
                 <DiBootstrap title="Bootstrap" size="60px" color="white" />
-                <DiDatabase title="Databases" size="60px" color="white"/>
-                <DiLinux title="Linux" size="60px" color="white"/>
+                <DiDatabase title="Databases" size="60px" color="white" />
+                <DiLinux title="Linux" size="60px" color="white" />
                 <DiNpm title="npm" size="60px" color="white" />
                 <DiPython title="Python" size="60px" color="white" />
-                <DiCss3 title="CSS" size="60px" color="white"/>
+                <DiCss3 title="CSS" size="60px" color="white" />
                 <DiNodejsSmall title="Node" size="60px" color="white" />
                 <div></div>
-                <DiApple title="Apple" size="60px" color="white"/>
-                <DiGithubBadge title="Github" size="60px" color="white"/>
-                <DiReact title="React" size="60px" color="white"/>
+                <DiApple title="Apple" size="60px" color="white" />
+                <DiGithubBadge title="Github" size="60px" color="white" />
+                <DiReact title="React" size="60px" color="white" />
                 <DiSass title="Sass" size="60px" color="white" />
-                <DiPhp title="Php" size="60px" color="white"/>
-                <DiHtml5 title="Html" size="60px" color="white"/>
+                <DiPhp title="Php" size="60px" color="white" />
+                <DiHtml5 title="Html" size="60px" color="white" />
                 <DiHeroku title="Heroku" size="60px" color="white" />
               </div>
-            </div> 
-              <p>&copy; Jesse Gjerde</p>  
-        
-           <div id="go-top">
-             <a className="smoothscroll" title="Back to Top" href="#home">
-               <i className="icon-up-open"></i>
-            </a>
             </div>
-    
-        </div>
+            <p>&copy; Jesse Gjerde</p>
+
+            <div id="go-top">
+              <a className="smoothscroll" title="Back to Top" href="#home">
+                <i className="icon-up-open"></i>
+              </a>
+            </div>
+          </div>
         </section>
-        </div>
-              // <p>&copy; Jesse Gjerde</p>  
-        
+      </div>
     );
   }
 }
