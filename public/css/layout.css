@@ -225,8 +225,14 @@ ul#nav li.current a {
   font-size: 150%;
   background-color: rgba(235, 238, 239, 0.201);
   font: bolder;
-  padding: 2em;
-  width: 105%;
+  font-style: italic;
+  /* padding: 2em;
+  width: 105%; */
+}
+
+#about p:hover {
+   padding: 2em;
+   width: 105%;
 }
 
 #about h2 {
@@ -273,11 +279,24 @@ ul#nav li.current a {
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
+  border-left-color: whitesmoke; 
+  border-right-color: whitesmoke;
+  border-top-color: rgb(60, 58, 58);
+  border-top-style: solid;
+  border-left-style: double; 
+  border-right-style: double; 
+  border-width: 145px; 
+  border-top-width: 15px;
+
 }
 
 #resume .icons {
   text-align: center;
   padding: 40px;
+}
+
+#resume .icons div:hover{
+   color: blue
 }
 
 #resume .pdf_page {
@@ -287,12 +306,14 @@ ul#nav li.current a {
 }
 
 #resume .pdf_page .pdf .pdf {
-  border-style: solid ;
-  border-width: 0px 500px;
-  border-color: black;
+
   padding: 10px; 
   background-color: rgb(228, 235, 235);
   font: rgb(47, 25, 196); 
+}
+
+#resume .pdf_page .pdf .pdf:hover {
+   background-color: cornflowerblue;
 }
 
 #resume h2 {
@@ -310,7 +331,8 @@ ul#nav li.current a {
 }
 
 #resume p {
-   color: rgb(240, 238, 238)
+   color: rgb(240, 238, 238); 
+   padding: 20px; 
 }
 
 .education,

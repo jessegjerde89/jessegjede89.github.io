@@ -65,22 +65,22 @@ class Resume extends Component {
 
             <div className="icons">
               <div>
-                <DiJsBadge title="JavaScript" size="40px" color="white" />
-                <DiBootstrap title="Bootstrap" size="40px" color="white" />
-                <DiDatabase title="Databases" size="40px" color="white"/>
-                <DiLinux title="Linux" size="40px" color="white"/>
-                <DiNpm title="npm" size="40px" color="white" />
-                <DiPython title="Python" size="40px" color="white" />
-                <DiCss3 title="CSS" size="40px" color="white"/>
-                <DiNodejsSmall title="Node" size="40px" color="white" />
+                <DiJsBadge title="JavaScript" size="60px" color="white" />
+                <DiBootstrap title="Bootstrap" size="60px" color="white" />
+                <DiDatabase title="Databases" size="60px" color="white"/>
+                <DiLinux title="Linux" size="60px" color="white"/>
+                <DiNpm title="npm" size="60px" color="white" />
+                <DiPython title="Python" size="60px" color="white" />
+                <DiCss3 title="CSS" size="60px" color="white"/>
+                <DiNodejsSmall title="Node" size="60px" color="white" />
                 <div></div>
-                <DiApple title="Apple" size="40px" color="white"/>
-                <DiGithubBadge title="Github" size="40px" color="white"/>
-                <DiReact title="React" size="40px" color="white"/>
-                <DiSass title="Sass" size="40px" color="white" />
-                <DiPhp title="Php" size="40px" color="white"/>
-                <DiHtml5 title="Html" size="40px" color="white"/>
-                <DiHeroku title="Heroku" size="40px" color="white" />
+                <DiApple title="Apple" size="60px" color="white"/>
+                <DiGithubBadge title="Github" size="60px" color="white"/>
+                <DiReact title="React" size="60px" color="white"/>
+                <DiSass title="Sass" size="60px" color="white" />
+                <DiPhp title="Php" size="60px" color="white"/>
+                <DiHtml5 title="Html" size="60px" color="white"/>
+                <DiHeroku title="Heroku" size="60px" color="white" />
               </div>
             </div> 
               <p>&copy; Jesse Gjerde</p>  
