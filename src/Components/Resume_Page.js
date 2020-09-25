@@ -5,11 +5,14 @@ import { Page } from "react-pdf";
 class Resume_Page extends Component {
   render() {
     return (
-      <button className="pdf">
-        <a href={Pdf} target="_blank">
-          Download My Resume 
-        </a>
-      </button>
+      <div classNanme="reslink">
+        <p> Link to my Resume !</p>
+        <button className="pdf">
+          <a href={Pdf} target="_blank">
+            Download
+          </a>
+        </button>
+      </div>
     );
   }
 }

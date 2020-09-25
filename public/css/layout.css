@@ -210,13 +210,16 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: rgb(43, 75, 134);
+  background-image: linear-gradient(to right, #264da1, #467ebb),
+    url(../images/longs.jpg);
+  /* background-blend-mode: overlay;
+  background: rgb(43, 75, 134); */
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
   border: outset;
-  border-style: double double double double;
-  border-width: 10em;
+  border-style: single;
+  border-width: 3em;
   border-color: rgba(23, 47, 143, 0.16);
 }
 
@@ -231,8 +234,8 @@ ul#nav li.current a {
 }
 
 #about p:hover {
-   padding: 2em;
-   width: 105%;
+  padding: 2em;
+  width: 105%;
 }
 
 #about h2 {
@@ -279,15 +282,14 @@ ul#nav li.current a {
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
-  border-left-color: whitesmoke; 
+  border-left-color: whitesmoke;
   border-right-color: whitesmoke;
   border-top-color: rgb(60, 58, 58);
   border-top-style: solid;
-  border-left-style: double; 
-  border-right-style: double; 
-  border-width: 145px; 
+  border-left-style: double;
+  border-right-style: double;
+  border-width: 145px;
   border-top-width: 15px;
-
 }
 
 #resume .icons {
@@ -295,8 +297,8 @@ ul#nav li.current a {
   padding: 40px;
 }
 
-#resume .icons div:hover{
-   color: blue
+#resume .icons div:hover {
+  color: blue;
 }
 
 #resume .pdf_page {
@@ -306,14 +308,13 @@ ul#nav li.current a {
 }
 
 #resume .pdf_page .pdf .pdf {
-
-  padding: 10px; 
+  padding: 10px;
   background-color: rgb(228, 235, 235);
-  font: rgb(47, 25, 196); 
+  font: rgb(47, 25, 196);
 }
 
 #resume .pdf_page .pdf .pdf:hover {
-   background-color: cornflowerblue;
+  background-color: cornflowerblue;
 }
 
 #resume h2 {
@@ -331,8 +332,16 @@ ul#nav li.current a {
 }
 
 #resume p {
-   color: rgb(240, 238, 238); 
-   padding: 20px; 
+  color: rgb(240, 238, 238);
+  padding: 20px;
+}
+
+#resume .cpname {
+  font-size: 23px;
+}
+
+#resume .cpname:hover {
+  font-size: 55px;
 }
 
 .education,
@@ -401,7 +410,6 @@ ul#nav li.current a {
    background-color: #8a0f95;
  } */
 
-
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
@@ -409,8 +417,7 @@ ul#nav li.current a {
 #portfolio {
   /* background: #7f8686 url(../images/testimonials-bg.jpg) no-repeat center center; */
 
-  background: #7f8686 url(../images/computer-background.jpg) no-repeat center
-    center;
+  background: #7f8686 url(../images/computer-background.jpg);
   text-shadow: 0 0 10px #5071b8, 0 0 5px #0000ff;
   padding-top: 130px;
   padding-bottom: 200px;
@@ -450,8 +457,8 @@ ul#nav li.current a {
 }
 
 .portfolio-item .item-wrap img {
-  width: 420px;
-  height: 160px;
+  width: 560px;
+  height: 130px;
 }
 
 /* overlay */
@@ -478,7 +485,7 @@ ul#nav li.current a {
 
   color: #fff;
   height: 35px;
-  width: 35px;
+  width: 40px;
   font-size: 18px;
   line-height: 30px;
   text-align: center;
@@ -535,6 +542,7 @@ ul#nav li.current a {
   position: relative;
   margin: 0 auto;
 }
+
 .popup-modal .description-box {
   padding: 12px 36px 18px 36px;
 }
@@ -1002,18 +1010,9 @@ footer {
   padding-top: 48px;
   margin-bottom: 48px;
   color: #303030;
-  font-size: 14px;
+  font-size: 30px;
   text-align: center;
   position: relative;
-}
-
-footer a,
-footer a:visited {
-  color: #525252;
-}
-footer a:hover,
-footer a:focus {
-  color: #fff;
 }
 
 /* copyright */
@@ -1021,15 +1020,21 @@ footer .copyright {
   margin: 0;
   padding: 0;
 }
+
 footer .copyright li {
   display: inline-block;
   margin: 0;
   padding: 0;
   line-height: 24px;
 }
-.ie footer .copyright li {
-  display: inline;
+
+footer .copyright li:hover {
+  color: red;
 }
+
+/* .ie footer .copyright li {
+  display: inline;
+} */
 footer .copyright li:before {
   content: "\2022";
   padding-left: 10px;
@@ -1044,7 +1049,6 @@ footer .copyright li:first-child:before {
 footer .social-links {
   margin: 18px 0 30px 0;
   padding: 0;
-  font-size: 30px;
 }
 footer .social-links li {
   display: inline-block;
@@ -1086,4 +1090,5 @@ footer .social-links li:first-child {
 }
 #go-top a:hover {
   background-color: #310f95;
+  color: blue;
 }

@@ -83,7 +83,7 @@ class Resume extends Component {
                 <DiHeroku title="Heroku" size="60px" color="white" />
               </div>
             </div>
-            <p>&copy; Jesse Gjerde</p>
+            <div className="cpname">&copy; Jesse Gjerde</div>
 
             <div id="go-top">
               <a className="smoothscroll" title="Back to Top" href="#home">
