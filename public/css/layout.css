@@ -236,6 +236,8 @@ ul#nav li.current a {
 #about p:hover {
   padding: 2em;
   width: 105%;
+  font-weight: bolder;
+  padding: 3em;
 }
 
 #about h2 {
@@ -245,13 +247,13 @@ ul#nav li.current a {
   text-align: center;
 }
 #about p {
-  padding: 2em;
+  padding: 1em;
   line-height: 26px;
   color: rgb(238, 243, 244);
   background-color: rgba(205, 205, 234, 0.085);
   border-radius: 25px;
   border: rgba(14, 14, 225, 0.859);
-  border: 50px;
+  border: 200px;
 }
 
 #about .profile-pic {
