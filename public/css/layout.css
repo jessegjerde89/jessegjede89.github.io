@@ -278,9 +278,12 @@ ul#nav li.current a {
 
 #resume {
   /* background: rgb(243, 243, 245); */
-  background-color: black;
+  background: linear-gradient(rgba(79, 79, 28, 0.687), rgba(75, 12, 163, 0.045)),
+    url(../images/longs\ .jpg) no-repeat;
+
   background-size: 100%;
   background-image: 2;
+  background-size: auto;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -288,8 +291,7 @@ ul#nav li.current a {
   border-right-color: whitesmoke;
   border-top-color: rgb(60, 58, 58);
   border-top-style: solid;
-  border-left-style: double;
-  border-right-style: double;
+
   border-width: 145px;
   border-top-width: 15px;
 }
@@ -306,17 +308,21 @@ ul#nav li.current a {
 #resume .pdf_page {
   text-align: center;
   padding-bottom: 20px;
-  font-size: 2em;
+  font-size: 3em;
+  color: rgb(177, 160, 199);
+}
+
+#resume .pdf_page .pdf .pdf #reslink {
+  color: blue;
 }
 
 #resume .pdf_page .pdf .pdf {
   padding: 10px;
-  background-color: rgb(228, 235, 235);
-  font: rgb(47, 25, 196);
+  background-color: rgb(224, 234, 234);
 }
 
 #resume .pdf_page .pdf .pdf:hover {
-  background-color: cornflowerblue;
+  background-color: rgb(118, 155, 218);
 }
 
 #resume h2 {
@@ -334,7 +340,7 @@ ul#nav li.current a {
 }
 
 #resume p {
-  color: rgb(240, 238, 238);
+  color: rgb(246, 246, 247);
   padding: 20px;
 }
 
@@ -419,23 +425,26 @@ ul#nav li.current a {
 #portfolio {
   /* background: #7f8686 url(../images/testimonials-bg.jpg) no-repeat center center; */
 
-  background: #7f8686 url(../images/computer-background.jpg);
+  background: #23a2a2 url(../images/computer-background.jpg);
   text-shadow: 0 0 10px #5071b8, 0 0 5px #0000ff;
-  padding-top: 130px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 170px;
   background-size: 100% 100%;
 }
 #portfolio h1 {
-  font: 22px/28px "opensans-semibold", sans-serif;
+  font: 26px/30px "opensans-semibold", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   text-align: center;
   margin-bottom: 48px;
   color: rgb(228, 222, 245);
+  padding-bottom: 25px;
 }
 
 #portfolio h1:hover {
   font-size: 300%;
+  text-shadow: blueviolet;
+  transition: ;
 }
 
 /* Portfolio Content */
@@ -539,7 +548,7 @@ ul#nav li.current a {
 
 /* popup modal */
 .popup-modal {
-  max-width: 550px;
+  /* max-width: 550px; */
   background: #fff;
   position: relative;
   margin: 0 auto;
