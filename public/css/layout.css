@@ -278,15 +278,18 @@ ul#nav li.current a {
 
 #resume {
   /* background: rgb(243, 243, 245); */
-  background: linear-gradient(rgba(79, 79, 28, 0.687), rgba(75, 12, 163, 0.045)),
-    url(../images/longs\ .jpg) no-repeat;
-
-  background-size: 100%;
+  background: linear-gradient(
+      rgba(92, 126, 225, 0.818),
+      rgba(91, 24, 159, 0.523)
+    ),
+    url(../images/longs\ .jpg);
+  /* background: url(../images/longs\ .jpg); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-image: 2;
-  background-size: auto;
   padding-top: 90px;
   padding-bottom: 72px;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-left-color: whitesmoke;
   border-right-color: whitesmoke;
   border-top-color: rgb(60, 58, 58);
@@ -318,7 +321,7 @@ ul#nav li.current a {
 
 #resume .pdf_page .pdf .pdf {
   padding: 10px;
-  background-color: rgb(224, 234, 234);
+  background-color: rgb(225, 224, 234);
 }
 
 #resume .pdf_page .pdf .pdf:hover {
@@ -340,7 +343,7 @@ ul#nav li.current a {
 }
 
 #resume p {
-  color: rgb(246, 246, 247);
+  color: rgb(58, 58, 133);
   padding: 20px;
 }
 
