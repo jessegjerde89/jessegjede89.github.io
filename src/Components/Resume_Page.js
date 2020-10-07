@@ -6,7 +6,7 @@ class Resume_Page extends Component {
   render() {
     return (
       <div classNanme="reslink">
-        <p> Link to my Resume !</p>
+        <p> Link to my Resume </p>
         <button className="pdf">
           <a href={Pdf} target="_blank">
             Download

@@ -45,9 +45,9 @@ class Resume extends Component {
       <div>
         <section id="resume">
           <div className="pdf_page">
-            <p className="pdf">
+            <div className="pdf">
               <Resume_page />
-            </p>
+            </div>
             <div />
 
             {/* <div className="row education">
